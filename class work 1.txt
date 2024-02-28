@@ -1,1 +1,2 @@
+First you install vs code, node js, type script
 console.log("Hello World!")
