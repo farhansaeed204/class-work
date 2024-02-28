@@ -1,0 +1,26 @@
+example:1
+var message = "3rd class";
+console.log(message);
+
+
+example:2
+var message;
+message = 123;
+console.log(message);
+
+
+example:3
+var message = "1234";
+console.log(message);
+
+
+example:4
+let blueColor = "blue";
+console.log(blueColor);
+blueColor = "green";
+console.log(blueColor);
+
+
+node modules
+gitgnore
+tsconfig.json

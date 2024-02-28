@@ -1,0 +1,30 @@
+example 1: (create your module) example: export import:
+create new file of any name and write this
+let a ="farhan";
+
+export default a 
+
+
+again create new file and write this
+import a from "./moduleclass3"
+
+console.log(a)
+
+how to run?
+first go terminal write only tsc
+then now write node write import file name.js
+
+
+example:2 (create your module) example: export import (simple export):
+create new file of any name and write this
+export let myTeacher = "Bilal"
+export let mySecondTeacher = "Areeba"
+
+again create new file and write this
+import{myTeacher,mySecondTeacher}   from "./sec_moduleclass3"
+console.log(myTeacher,mySecondTeacher)
+
+
+example:3
+download npm i inquirer
+and npm i --save-dev @types/inquirer
