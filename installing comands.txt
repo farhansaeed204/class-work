@@ -1,0 +1,18 @@
+install all file in one folder:
+
+tsc --init
+npm init -y
+npm i  @types/node -D
+npm i inquirer
+npm i --save-dev @type/inquirer
+npm i chalk
+
+changes in files:
+
+tsconfig.json:
+line 14: target: "es2022",
+line 28:first uncomment then module: "NodeNext",
+line 30:first uncomment then moduleResolution: "NodeNext",
+
+package.json:
+add new line after line number: 5 now create line: 6 "type": "module",
