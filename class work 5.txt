@@ -1,0 +1,94 @@
+example 1:
+let num1: number = 2;
+let num2: number = 5;
+
+let sum: number = num1 + num2;
+
+console.log(sum);
+
+
+example 2:
+let num1: number = 5;
+let num2: number = 2;
+
+let sum: number = num1 - num2;
+
+console.log(sum);
+
+
+example 3:
+let num1: number = 4;
+let num2: number = 5;
+
+let sum: number = num1 * num2;
+
+console.log(sum);
+
+
+example 4:
+let num1: number = 4;
+let num2: number = 2;
+
+let sum: number = num1 / num2;
+
+console.log(sum);
+
+
+example 5: 
+let num1: number = 4;
+let num2: number = 2;
+
+let sum: number = num1 ** num2;
+
+console.log(sum);
+
+
+example 6:
+let num1: number = 16;
+let num2: number = 3;
+
+let sum: number = num1 % num2;
+
+console.log(sum);
+
+
+example 7:
+let a: number = 5;
+
+console.log(a);
+console.log(a++);
+console.log(a);
+
+
+example 8:
+let a: number = 5;
+
+console.log(++a);
+console.log(a);
+
+
+example 9:
+let a: number = 5;
+
+console.log(--a);
+console.log(a);
+
+
+example 10:
+let num1: number = 5
+let num2: number = 8
+
+let preincrementNumber = ++num1
+
+console.log(preincrementNumber);
+
+
+example 11:
+let num1: number = 5
+let num2: number = 8
+
+let postincrementNumber = num2++
+
+console.log(num2);
+
+
