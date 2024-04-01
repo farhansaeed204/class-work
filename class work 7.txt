@@ -1,0 +1,48 @@
+example 1:
+let month = "Ramadan";
+console.log(month == "Ramadan");
+
+example 2:
+let month = "Muharram";
+console.log(month != "Ramadan");
+
+example 3:
+let age = 12;
+console.log(age < 17);
+
+example 4:
+let age = 18;
+console.log(age >= 18);
+
+exapmle 5:
+let age = 18;
+console.log(age <= 18);
+
+example 6:
+let age = 18;
+console.log(age > 18);
+
+example 7:
+let age = 18;
+console.log(age < 18);
+
+example 8:
+let num = 17;
+console.log(num > 18 && num < 18);
+
+example 9:
+let num = 17;
+console.log(num > 18 || num < 18);
+
+example 10:
+let num = (2 + 3 * ((8 + 4 / 2) * 5));
+console.log(num);
+
+example 11:
+let age = 17;
+
+if (age >= 18) {
+  console.log("id card bana sakty ho");
+} else {
+  console.log("you are underage");
+}
