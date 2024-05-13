@@ -1,0 +1,74 @@
+example: 1
+let firstName:string = "Farhan";
+let secondName:string = "Saeed";
+console.log(firstName + secondName);
+
+
+example: 2
+let firstName:string = "Farhan";
+let secondName:string = "Saeed";
+console.log(`my name is ${firstName} ${secondName}`);
+
+
+example: 3
+function saymyName(){
+    console.log("Hello World");
+}
+
+// function call
+saymyName()
+
+
+example: 4
+
+function saymyName(name:string) {
+    console.log(name);
+}
+
+saymyName("farhan");
+saymyName("bilal saeed");
+
+
+example: 5 
+function sum (num1: number, num2: number) {
+    console.log(num1 + num2);
+}
+
+sum(10, 30);
+
+
+example: 6
+function myId(name: string, age: number) {
+    console.log(`my name is : ${name} and my age is : ${age}`);
+}
+
+myId("Fahan", 17);
+
+
+example: 7
+function myBIO(name: string = "farhan", age: number = 17) {
+    console.log(`my name is : ${name} and my age is : ${age}`);
+}
+
+myBIO("Maaz", 17);
+
+
+example:8
+
+function myBIO(name: string = "farhan", age: number = 17) {
+    console.log(`my name is : ${name} and my age is : ${age}`);
+}
+
+myBIO();
+
+
+example: 9
+
+function addTwoValues(num1:number, num2:number){
+    let value = num1 + num2
+    return value
+}
+
+let a = addTwoValues(10, 20)
+
+console.log(a)

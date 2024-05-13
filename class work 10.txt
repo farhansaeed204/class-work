@@ -1,0 +1,76 @@
+example: 1
+function halffryEgg(egg: number, butter: number, salt: number){
+    return egg + butter + salt
+}
+
+console.log(halffryEgg(1,1.5,0.5));
+
+
+example:2
+// global scope
+let name1 = "farhan"
+var name2 = "maaz"
+const name3 = "daniyal"
+
+
+example: 3
+if(name1 = "farhan"){
+    name2 = "maaz"
+}
+console.log(name2)
+
+
+example: 4
+
+if(true){
+    var userName = "aleena"
+}
+console.log(userName)
+
+
+example: 5
+if(true){
+    let name1= "maaz"
+    console.log("inside if block", name1)
+}
+console.log("globle scope", name1)
+
+
+example: 6
+
+// object
+let userobj = {
+    name: "kamran khan tessori",
+    designetion: "Governor sindh",
+    residence: "governor house"
+}
+
+console.log(userobj)
+
+
+example: 7
+// object
+let userobj = {
+    name: "kamran khan tessori",
+    designetion: "Governor sindh",
+    residence: "governor house"
+}
+
+console.log(userobj.name)
+console.log(userobj["name"])
+
+
+example: 8 
+let userobj = {
+    name: "kamran khan tessori",
+    designetion: "Governor sindh",
+    residence: "governor house",
+    qualities:{
+        height: "5.8",
+        eyecolor: "black"
+    }
+}
+
+console.log(userobj.qualities.height)
+
+
